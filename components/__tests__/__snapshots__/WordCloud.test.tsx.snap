@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WordCloud Component matches snapshot with mock data 1`] = `
+<div>
+  <div
+    class="border overflow-hidden"
+    data-testid="wordcloud-container"
+    style="width: 600px; height: 400px;"
+  >
+    <svg
+      height="400"
+      viewBox="0 0 600 400"
+      width="600"
+    >
+      <g
+        transform="translate(300, 200)"
+      >
+        <text
+          aria-label="Word: react, Frequency: 50"
+          class="cursor-pointer fill-current text-gray-700 hover:text-blue-600 transition-colors duration-150 ease-in-out"
+          dominant-baseline="central"
+          font-size="60"
+          font-weight="bold"
+          text-anchor="middle"
+          transform="translate(3, 0) rotate(0)"
+        >
+          react
+        </text>
+      </g>
+    </svg>
+  </div>
+</div>
+`;
